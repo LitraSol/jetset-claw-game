@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tip Grabber</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>💅✈️ Tip Grabber ✈️💅</h1>
+  <div class="video-container">
+    <video id="prizeVideo" width="600" height="400" src="ClawGameVideo.mp4" preload="auto"></video>
+  </div>
+  <button id="dropBtn" onclick="handleDrop()">Play to Win</button>
+  <button onclick="resetGame()">Reset</button>
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span id="popupText"></span>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
